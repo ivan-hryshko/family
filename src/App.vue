@@ -19,6 +19,9 @@
     <p>
       З нетерпінням чекаємо на зустріч!
     </p>
+    <svg style="width:100px;height:100px" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+    </svg>
   </div>
 </template>
 
@@ -57,8 +60,30 @@ img {
   border-radius: 10px;
 }
 
-/* #app p:first-child {
-  margin: 200px 0px;
-} */
+@media (max-width: 1000px) {
+
+  #app {
+    padding:0px 20px;
+  }
+
+  p {
+    font-size: 60px;
+    margin: 150px 0px;
+  }
+
+  img {
+    width: 100%;
+    border: 10px solid #931b05;
+    border-radius: 10px;
+  }
+
+  svg {
+    margin-bottom: 150px;
+  }
+
+  svg path {
+    fill: #931b05;
+  }
+}
 
 </style>
