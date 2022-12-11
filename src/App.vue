@@ -43,9 +43,20 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  padding:0px 60px;
 }
 
 p {
   font-size: 60px;
+  margin: 300px 0px;
 }
+
+img {
+  width: 100%;
+}
+
+/* #app p:first-child {
+  margin: 200px 0px;
+} */
+
 </style>
