@@ -53,6 +53,8 @@ p {
 
 img {
   width: 100%;
+  border: 20px solid #931b05;
+  border-radius: 10px;
 }
 
 /* #app p:first-child {
