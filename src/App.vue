@@ -5,7 +5,7 @@
     </p>
     <img src="./assets/NY.jpg">
     <p>
-      Бажаємо вас всього найкращого
+      Бажаємо вам всього найкращого
     </p>
     <img src="./assets/bowling.jpg">
     <p>
@@ -78,7 +78,7 @@ svg path {
 
 }
 
-#app p {
+#app p:last-child {
   margin-bottom: 200px;
 }
 
@@ -98,8 +98,8 @@ svg path {
   }
 
   p {
-    font-size: 60px;
-    margin: 150px 0px;
+    font-size: 40px;
+    margin: 100px 0px;
   }
 
   img {
