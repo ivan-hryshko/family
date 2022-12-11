@@ -52,6 +52,8 @@ export default {
 p {
   font-size: 60px;
   margin: 300px 0px;
+  animation: hear-beat 2s linear infinite alternate 0s forwards;
+
 }
 
 img {
@@ -66,10 +68,26 @@ svg {
 
 svg path {
   fill: #931b05;
+  /* animation: hear-beat 1.5s linear infinite alternate 0s forwards; */
+  animation-name: hear-beat;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+
 }
 
 #app p {
   margin-bottom: 200px;
+}
+
+@keyframes hear-beat {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #931b05;
+  }
 }
 
 @media (max-width: 1000px) {
