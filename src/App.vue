@@ -277,6 +277,10 @@ $duration: 1400;
   img {
     width: 100%;
   }
+
+  #app {
+    margin-bottom: 250px;
+  }
 }
 
 </style>
