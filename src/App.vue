@@ -162,7 +162,7 @@ $yellow: #ffd300;
 $blue: #17d3ff;
 $pink: #ff4e91;
 
-$duration: 1000;
+$duration: 1400;
 
 @function randomNum($min, $max) {
   $rand: random();
@@ -189,7 +189,7 @@ $duration: 1000;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   position: relative;
 }
@@ -248,7 +248,7 @@ $duration: 1000;
   }
 
   to {
-    transform: translateY(200px);
+    transform: translateY(300px);
   }
 }
 
