@@ -68,6 +68,10 @@ export default {
   box-sizing: border-box;
 }
 
+html {
+  background-color: #F0EBE8;
+}
+
 #app {
   font-family: Alice, serif;
   -webkit-font-smoothing: antialiased;
@@ -76,7 +80,6 @@ export default {
   color: #67443F;
   padding:0px 60px;
   width: 100%;
-  background-color: #F0EBE8;
 }
 
 p {
