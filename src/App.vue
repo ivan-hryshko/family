@@ -17,7 +17,7 @@
         <div class="confetti-piece"></div>
       </div>
     </div>
-    <p>
+    <p id="p-first">
       Мамуля, вітаємо тебе з Днем народження!!!
     </p>
     <!-- <div class="image-container">
@@ -101,13 +101,14 @@ html {
 
 p {
   font-size: 60px;
-  padding: 300px 0px;
+  margin: 300px 0px;
   animation: hear-beat 2s linear infinite alternate 0s forwards;
 
 }
 
+
 #p-last {
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 
@@ -271,7 +272,12 @@ $duration: 1400;
 
   p {
     font-size: 40px;
-    margin: 100px 0px;
+    margin: 200px 0px;
+  }
+
+  #p-first {
+    margin-top: 0px;
+    padding-top: 0px;
   }
 
   img {
@@ -279,7 +285,7 @@ $duration: 1400;
   }
 
   #app {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
   }
 }
 
