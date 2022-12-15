@@ -34,7 +34,7 @@
       <img src="./assets/NY.jpg">
     </div> -->
 
-    <img src="./assets/border/photo1.png">
+    <img src="./assets/border/photo1.svg">
 
     <p>
       Найрідніша в світі людина, мила наша матуся
@@ -43,15 +43,15 @@
     <p>
       Від щирого серця хочемо побажати міцного здоров’я, більше радості кожного дня, позитивних моментів і гарних новин!
     </p>
-    <img src="./assets/border/photo3.png">
+    <img src="./assets/border/photo3.svg">
     <p>
       Ми вас з татом дуже сильно любимо і хочемо щоб ви були самими щасливими!!!
     </p>
-    <img src="./assets/border/photo4.png">
+    <img src="./assets/border/photo4.svg">
     <p>
       Дякуємо вам за неймовірну підтримку, віру, любов, за все, що ви робите для нас
     </p>
-    <img src="./assets/border/photo5.png">
+    <img src="./assets/border/photo5.svg">
     <p id="p-last">
       Дуже сумуємо за вами і з нетерпінням чекаємо зустрічі
     </p>
